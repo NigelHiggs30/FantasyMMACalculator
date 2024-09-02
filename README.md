@@ -37,5 +37,3 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. Currently
         .
         .
         .
-
-

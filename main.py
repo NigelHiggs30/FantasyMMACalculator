@@ -103,17 +103,6 @@ def main(url):
     
 if __name__ == "__main__":
     
-#     url = "http://ufcstats.com/fighter-details/23024fdfc966410a"
-#     response = requests.get(url)
-
-#     soup = BeautifulSoup(response.text,"html.parser")
-
-#     #lets check fight_link 
-#     fighters_links = url_links(soup)
-
-#     for x in range(len(fighters_links)):
-#         main(fighters_links[x])
-   
     parser = argparse.ArgumentParser(description="Scrape UFC fighter details.")
     parser.add_argument(
         "url",

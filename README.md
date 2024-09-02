@@ -12,7 +12,7 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. Currently
     ```pip install -r requirements.txt```
 
 ## How to use:
-    ```
-    python main.py url_link
+    
+    ```python main.py url_link
 
 

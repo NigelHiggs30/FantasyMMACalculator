@@ -10,7 +10,7 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. Currently
 2. Run the following commnad:
     ```
     pip install -r requirements.txt
-```
+
 
 
 ## How to use

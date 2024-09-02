@@ -11,3 +11,10 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. Currently
     ```bash
    pip install -r requirements.txt
 
+
+## How to use
+    ```bash
+    python main.py url_link```
+
+
+

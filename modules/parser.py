@@ -1,6 +1,6 @@
 import re
 from bs4 import BeautifulSoup
-from utils import convert_time_to_seconds
+from modules.utils import convert_time_to_seconds
 
 class WebPageParser:
     def __init__(self, html_content: str):

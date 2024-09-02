@@ -1,8 +1,8 @@
-from scraper import get_fight_data
-from utils import convert_time_to_seconds
-from fight_link import url_links
-from parser import WebPageParser
-from calculator import FantasyPointsCalculator
+from modules.scraper import get_fight_data
+from modules.utils import convert_time_to_seconds
+from modules.fight_link import url_links
+from modules.parser import WebPageParser
+from modules.calculator import FantasyPointsCalculator
 from bs4 import BeautifulSoup
 import requests
 import argparse

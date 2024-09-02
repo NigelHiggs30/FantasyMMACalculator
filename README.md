@@ -13,6 +13,6 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. Currently
 
 ## How to use:
     
-    ```python main.py url_link
+    python main.py url_link
 
 

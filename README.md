@@ -13,7 +13,7 @@ This project aims to simplify collecting datasets for UFC Fantasy MMA. I'm curre
 
 ## How to use
     
-    python main.py url_link_here
+    python main.py http://ufcstats.com/fighter-details/23024fdfc966410a --all
 
 
 ## Example use case

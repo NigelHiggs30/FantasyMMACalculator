@@ -5,7 +5,7 @@ from modules.utils import convert_time_to_seconds
 
 
 
-def evaluate_fight_points(url):
+def evaluate_fight_points(url,return_values=False):
      ##url of specific fight.
     # url = "http://ufcstats.com/fight-details/4047e98132306cd5"
     website_data = get_fight_data(url)
@@ -96,5 +96,8 @@ def evaluate_fight_points(url):
         elif winner == fighter_2_name:
                 fighter_2_score += 40  # type: ignore
 
-    print(f"{fighter_1_name}: {fighter_1_score}")
-    print(f"{fighter_2_name}: {fighter_2_score}\n")
+    if return_values:
+        return fighter_1_name, fighter_1_score, fighter_2_name, fighter_2_score
+    else:
+        print(f"{fighter_1_name}: {fighter_1_score}")
+        print(f"{fighter_2_name}: {fighter_2_score}\n")
